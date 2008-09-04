@@ -1,0 +1,5 @@
+category: Games
+requires: cygwin libncurses8
+sdesc: "Tic-Tac-Toe with different rules"
+ldesc: "Tic-Tac-Toe game with different rules.  Finding out what those 
+rules are is part of the game :-)"

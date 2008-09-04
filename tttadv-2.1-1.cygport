@@ -1,0 +1,15 @@
+DESCRIPTION="Console advanced tic-tac-toe"
+HOMEPAGE="http://sourceforge.net/projects/tttadv/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+SRC_DIR=${PN}
+
+src_compile() {
+	lndirs
+	cd ${B}
+	verbose g++ ${CFLAGS} ${LDFLAGS} -o ${PN}.exe main.cpp -lncurses
+}
+
+src_install() {
+	cd ${B}
+	dobin ${PN}.exe
+}

@@ -1,0 +1,54 @@
+tttadv
+------------------------------------------
+A Tic-Tac-Toe game with different rules.
+Discovering what those rules are is part 
+of the game. :-)
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libncurses8-5.5-3
+
+Build requirements:
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gcc-core-3.4.4-3
+
+Canonical homepage:
+  http://sourceforge.net/projects/tttadv/
+
+Canonical download:
+  http://downloads.sourceforge.net/tttadv/
+
+-------------------------------------------
+
+Build instructions:
+  unpack tttadv-2.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./tttadv-2.1-X.cygport all
+
+This will create:
+  /usr/src/tttadv-2.1-X-src.tar.bz2
+  /usr/src/tttadv-2.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/tttadv.exe
+  /usr/share/doc/tttadv-2.1/Changes.txt
+
+------------------
+
+Port Notes:
+
+----- version 2.1-1 -----
+Version bump.
+
+----- version 2.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
